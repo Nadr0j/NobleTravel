@@ -23,7 +23,7 @@ h1 {
 /********
 HEADER
 ********/
-
+ 
 header {
     background-color: #292c2f;
     border-bottom: 5px solid #87afdc;
@@ -501,8 +501,9 @@ FOOTER QUIERES
 
 	.footer-distributed form{
 		margin-top: 30px;
+    }
 
-
+ 
 
 
 
