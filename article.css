@@ -82,7 +82,7 @@ a {
     transition: all .1s ease-in;
 }
 
-a:hover {
+header a:hover {
     color: #87afdc;
 }
 
@@ -127,7 +127,7 @@ a:hover {
 }
 
 /*********
-ARTICLE STYLES
+ARTICLE TEXT STYLES
 *********/
 
 main {
@@ -151,6 +151,85 @@ main .article {
     text-indent: 50px;
 }
 
+main h3 {
+    text-indent: 50px;
+    font-size: 2rem;
+    margin: 50px 0 10px;;
+}
+
+
+
+/*********
+ARTICLE after STYLES
+*********/
+
+.next-article {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    background-color: #eee;
+    border: 1px solid #ddd;
+}
+
+.next-article a {
+    color: #333;
+}
+
+.fa-arrow-right {
+    color: limegreen;
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.next-article:hover .fa-arrow-right {
+    opacity: 1;
+}
+
+.social-share {
+    text-align: center;
+    margin-top: 0;
+    font-size: 2.5rem;
+    background-color: #fff5cc;
+    border: 3px solid #ffeb99;
+}
+
+.button-wrapper {
+    text-align: center;
+}
+
+.social-button {
+    margin: 20px;
+    font-size: 2rem;
+    color: white;
+    padding: 10px;
+    transition: all .1s ease;
+}
+
+.facebook {
+    background-color: #3B5998;
+    border-bottom: 5px solid #324b81;
+}
+
+.twitter {
+    background-color: #4099FF;
+    border-bottom: 5px solid #1a84ff;
+}
+
+.pinterest {
+    background-color: #BD081C;
+    border-bottom: 5px solid #930615;
+}
+
+.reddit {
+    background-color: #FA9016;
+    border-bottom: 5px solid #e17a05;
+}
+
+.social-button:hover {
+    color: white;
+}
 
 
 
