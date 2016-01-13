@@ -251,6 +251,7 @@ section h1 {
     color: #333;
 }
 
+
 section h2 {
     font-family: arial;
     font-weight: 900;
@@ -259,6 +260,15 @@ section h2 {
     margin: -20px 0 50px;
     
 }
+
+@media (max-width: 420px) {
+    section h1,
+    section h2 {
+        font-size: 3rem;
+    }
+}
+
+
 
 .circles {
     height: 20px;
