@@ -387,6 +387,10 @@ FOOTER SOCIAL ICONS
 	margin-bottom: 5px;
 }
 
+.footer-icons p {
+    margin-bottom: 0;
+}
+
 .footer-icons a:hover {
     color: #87afdc;
 }
