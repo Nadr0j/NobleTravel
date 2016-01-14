@@ -139,18 +139,99 @@ main h2 {
 
 
 /********
+List wrapper left line
+********/
+
+.sideline {
+    width: 2px;
+    background-color: black;
+    float: left;
+    position: relative;
+    left: 40px;
+}
+.line1 {
+    height: 160px;
+}
+.line2 {
+    height: 120px;
+}
+
+.down-arrow-top {
+    float: left;
+    position: relative;
+    left: 29px;
+    top: 150px;
+	width: 0px;
+    height: 0px;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 10px solid black;
+}
+
+.down-arrow {
+    float: left;
+    position: relative;
+    left: 29px;
+    top: 120px;
+	width: 0px;
+    height: 0px;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 10px solid black;
+}
+/********
 List wrapper
 ********/
 
 .list-wrapper {
-    width: 800px;
+    width: 780px;
     height: 1000px;
-    background-color: white;
+    background-color: rgba(255,255,255,.7);
     margin: 50px auto;
-    opacity: .8;
+    padding: 20px;
+}
+
+h3 > img {
+    padding-right: 15px
+}
+
+.list-wrapper {
+    color: black;
+}
+
+h3 {
+    color: #202020;
+    font-size: 1.7vw;
+    margin: 50px 10px 20px;
+    text-decoration: underline;
+    font-weight: 800;
 }
 
 
+.list-wrapper p {
+    text-align: left;
+    margin-left: 80px;
+    text-indent: 50px;
+    color: #333;
+}
+
+.buttp {
+    margin-bottom: 150px;
+}
+
+span {
+    color: #e67b4b;
+}
+
+h3:nth-child(n+2) {
+    text-align: left;
+}
+
+.first-check {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 2.3vw;
+}
 
 
 
