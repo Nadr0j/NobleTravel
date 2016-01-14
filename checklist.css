@@ -1,0 +1,405 @@
+/********
+GLOBAL
+********/
+
+@import url(https://fonts.googleapis.com/css?family=Cabin+Sketch|Crimson+Text);
+
+body, html {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    text-align: center;
+    background-image: url(img/checlistBG.jpg); 
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+
+h1 {
+    margin: 0;
+}
+
+
+/********
+HEADER
+********/
+ 
+header {
+    background-color: #292c2f;
+    border-bottom: 5px solid #87afdc;
+}
+
+header img {
+    vertical-align: middle;
+    margin: -30px 0 -100px;
+}
+
+header h1 {
+    font-size: 6rem;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0 20px;
+    margin-top: -10px;
+    padding-bottom: 5px;
+}
+
+.home {
+    color: #87afdc;
+}
+
+
+.home,
+.plan,
+.community {
+    position: relative;
+    right: 30px;
+}
+
+.videos,
+.planning,
+.map {
+    position: relative;
+    left: 115px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: all .1s ease-in;
+}
+
+a:hover {
+    color: #87afdc;
+}
+
+@media (max-width: 1276px) {
+    h1 > img {
+        display: none;
+    }
+    
+    header h1:before {
+        content:url(img/headerGlobeMediaLarge.png);
+    }
+    
+    .videos,
+    .planning,
+    .home,
+    .plan,
+    .community,
+    .map {
+        position: static;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 1100px) {
+    .videos,
+    .planning,
+    .home,
+    .plan,
+    .community,
+    .map
+    ul, a, li {
+        display: block;
+    }
+    
+    header h1 {
+        font-size: 3.3rem;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/********
+PAGE TITLE
+********/
+
+main h2 {
+    margin-top: 100px;
+    font-size: 5.9vmin;
+    display: inline-block;
+    color: #87afdd;
+    font-family: cabin sketch;
+}
+
+
+/********
+List wrapper
+********/
+
+.list-wrapper {
+    width: 800px;
+    height: 1000px;
+    background-color: white;
+    margin: 50px auto;
+    opacity: .8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********
+FOOTER
+********/
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+
+/*******
+Footer left 
+********/
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+.footer-left img {
+    width: 75px;
+}
+
+/*******
+LOGO 
+********/
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font-family: "crimson text";
+    font-size: 2rem;
+	margin: 0 0 10px;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/*******
+FOOTER LINKS 
+********/
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/*******
+FOOTER SOCIAL ICONS
+********/
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.footer-icons p {
+    margin-bottom: 0;
+}
+
+.footer-icons a:hover {
+    color: #87afdc;
+}
+
+/*******
+FOOTER RIGHT
+********/
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+
+/*******
+FOOTER CONTACT FORM
+********/
+
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 400px;
+	padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+/*******
+FOOTER QUIERES
+********/
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 250px;
+	}
+
+	.footer-distributed form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footer-distributed form{
+		margin-top: 30px;
+    }
