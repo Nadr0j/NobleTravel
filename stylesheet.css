@@ -161,6 +161,10 @@ CHECKLIST BAR
     
 }
 
+.green {
+    color: limegreen;
+}
+
 .checklist-bar h1 {
     color: #fff;
     font-weight: 600;
