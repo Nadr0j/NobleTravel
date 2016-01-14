@@ -132,6 +132,7 @@ PAGE TITLE
 main h2 {
     margin-top: 100px;
     font-size: 5.9vmin;
+    margin-left: 4%;
     display: inline-block;
     color: #87afdd;
     font-family: cabin sketch;
@@ -150,7 +151,8 @@ List wrapper left line
     left: 40px;
 }
 .line1 {
-    height: 160px;
+    height: 180px;
+    margin-top: -20px;
 }
 .line2 {
     height: 120px;
@@ -185,7 +187,6 @@ List wrapper
 
 .list-wrapper {
     width: 780px;
-    height: 1000px;
     background-color: rgba(255,255,255,.7);
     margin: 50px auto;
     padding: 20px;
@@ -228,11 +229,14 @@ h3:nth-child(n+2) {
 }
 
 .first-check {
-    margin-left: 20px;
+    margin-left: 0px;
     margin-top: 10px;
     font-size: 2.3vw;
 }
 
+list-wrapper p:last-child {
+    margin-bottom: 500px;
+}
 
 
 
