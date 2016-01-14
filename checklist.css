@@ -190,6 +190,7 @@ List wrapper
     background-color: rgba(255,255,255,.7);
     margin: 50px auto;
     padding: 20px;
+    border-bottom: 5px solid #e67b4b;
 }
 
 h3 > img {
@@ -202,7 +203,7 @@ h3 > img {
 
 h3 {
     color: #202020;
-    font-size: 1.7vw;
+    font-size: 30px;
     margin: 50px 10px 20px;
     text-decoration: underline;
     font-weight: 800;
@@ -231,15 +232,19 @@ h3:nth-child(n+2) {
 .first-check {
     margin-left: 0px;
     margin-top: 10px;
-    font-size: 2.3vw;
-}
-
-list-wrapper p:last-child {
-    margin-bottom: 500px;
+    font-size: 42px;
 }
 
 
+.last {
+    margin-bottom: 50px;
+}
 
+@media (max-width: 900px) {
+    .list-wrapper {
+        width: 80%;
+    }
+}
 
 
 
